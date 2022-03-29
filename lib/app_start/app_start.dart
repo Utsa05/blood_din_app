@@ -1,6 +1,5 @@
 import 'package:blood_din/app_cons/app_colors.dart';
-import 'package:blood_din/features/presentation/pages/create_post_page/create_post_page.dart';
-import 'package:blood_din/features/presentation/pages/home_page/home_page.dart';
+import 'package:blood_din/features/presentation/pages/ambulances_page/ambulances_page.dart';
 import 'package:flutter/material.dart';
 
 class AppStart extends StatelessWidget {
@@ -16,7 +15,7 @@ class AppStart extends StatelessWidget {
           )),
       debugShowCheckedModeBanner: false,
       title: 'Blood Din',
-      home: const CreatePostPage(),
+      home: const AmbulancesPage(),
     );
   }
 }
